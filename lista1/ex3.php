@@ -1,24 +1,24 @@
-<?php
+<?php   
     
-    $num;
     $divisor;
 
     for($num=0;$num<=200;$num++)
     {
-        while($num>=$divisor){
-            $resto = $num%$divisor;
-
+        $primo = 1;
+        echo $num . " ";
+        for($div=2 ; $div <=$num/2 ; $div++){
+            $resto = $num % $div;
             if($resto==0){
-                $cont=0;
-                $cont++;
+                $primo = 0;
+                break;
             }
         }
 
-        if($cont>2){
-            echo "Não é primo.";
+        if($primo === 0){
+            echo "Não é primo. <br>";
         }
         else{
-            echo "É primo";
+            echo "É primo <br>";
         }
     }
 
