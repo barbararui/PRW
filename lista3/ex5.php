@@ -1,7 +1,6 @@
 <?php
-    $data = strtotime('06/06/2022'); // padrao americano mes/dia/ano
+    $data = strtotime('04/06/2022'); // padrao americano mes/dia/ano
     $dia = date('w',$data);
-    echo $dia;
 
     if($dia==0)
     {
