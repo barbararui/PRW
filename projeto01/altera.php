@@ -29,7 +29,7 @@
                 Digite seu telefone: <input type="text" name="telefone_usuario" 
                 value = "<?php echo $row['telefone_usuario'] ?>" placeholder="Digite o telefone: "
                 size="30">
-                <input type="submit" value="sALVAR">
+                <input type="submit" value="salvar">
         </form>
     </body>
 </html>
