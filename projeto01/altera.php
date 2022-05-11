@@ -14,22 +14,29 @@
         <title> EXERCICIO 1</title>
     </head>
     <body>
-        <form method="GET" action="cadastro_usuario.php">
-            <h2>Alteração do usuário</h2>
-            
-                Digite seu nome: <input type="text" name="nome_usuario" 
-                value = "<?php echo $row['nome_usuario'] ?>" placeholder="Digite o nome: "
-                size="100" >
+    <form method="post" action="altera_usuario_ex.php">
+            <fieldset>
+                <legend>Cadastro</legend>
+                <div class="form-item">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" value="<?php echo $row['nome_usuario']?>" placeholder="Digite o nome">
+                </div>
+                <div class="form-item">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" value="<?php echo $row['email_usuario']?>" placeholder="Digite o email">
+                </div>
+                <div class="form-item">
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" id="telefone" name="telefone" value="<?php echo $row['telefone_usuario']?>" placeholder="Digite o Telefone">
+                </div>
+                <div class="form-item">
+                    <input id="btn" type="submit" value="Enviar" >
+                    <a href='index.php'> Voltar</a>
+                </div>
+                <input name="id_usuario" type="hidden" value="<?php echo $row['id_usuario']?>">
+                
 
-                <br>
-                Digite seu email: <input type="text" name="email_usuario" 
-                value = "<?php echo $row['email_usuario'] ?>" placeholder="Digite o email: "
-                size="100">
-                <br>
-                Digite seu telefone: <input type="text" name="telefone_usuario" 
-                value = "<?php echo $row['telefone_usuario'] ?>" placeholder="Digite o telefone: "
-                size="30">
-                <input type="submit" value="salvar">
+            </fieldset>
         </form>
     </body>
 </html>
