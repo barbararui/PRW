@@ -19,3 +19,5 @@ create table agenda
     
     -- barbara cristina ruiz paula 3º info
 );
+
+select * from agenda

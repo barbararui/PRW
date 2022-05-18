@@ -13,8 +13,8 @@
     <hr>
     <div id="menu">
         <ul>
-            <li><a href="cadastro_usuario.html">Cadastrar Usuário</a></li>
-            <li><a href="listarusuario.php">Listar Usuário</a></li>
+            <li><a href="cadastro_agenda.html">Cadastrar Usuário</a></li>
+            <li><a href="listar_agenda.php">Listar Usuário</a></li> 
         </ul>
     </div>
 </body>
