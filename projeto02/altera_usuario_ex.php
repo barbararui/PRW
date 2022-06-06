@@ -27,7 +27,7 @@
     echo "<p> Email: " . $email . "<p>";
     echo "<p> Telefone: " . $telefone . "<p>";
 	
-    if(isset($fotoNome)){
+    if(strlen($fotoNome) > 0){
       $sql = "UPDATE usuario SET
                 nome_usuario='".$nome."',
                 email_usuario='".$email."',
