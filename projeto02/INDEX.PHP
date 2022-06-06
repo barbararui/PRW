@@ -14,7 +14,7 @@
     <div id="menu">
         <ul>
             <li><a href="cadastro_usuario.html">Cadastrar Usuário</a></li>
-            <li><a href="listarusuario.php">Listar Usuário</a></li>
+            <li><a href="listarusuario.php">Listar Usuário </a></li>
         </ul>
     </div>
 </body>
