@@ -20,5 +20,6 @@ create table agenda
     primary key (id_agenda)
     
     -- barbara cristina ruiz paula 3º info
+    -- agenda
 );
 
