@@ -60,3 +60,7 @@
 
 </body>
 </html>
+
+<div>
+    <a href="index.php">Inicio</a>
+</div>

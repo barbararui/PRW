@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> AGENDA </title>
+    </head>
+    <body>
+        <form method="POST" action="cadastro_fluxo_caixa.php" enctype='multipart/form-data'>
+            <h2>CADASTRE O FLUXO DA CAIXA</h2>
+        
+
+
+                Data <INPUT type="date" NAME = "dataa" VALUE = "Y-m-d">
+                <h4>TIPO</h4>
+                <br>
+                Entrada <INPUT type="radio" id ="tipo" NAME = "tipo" VALUE = "entrada">
+                Saida <INPUT TYPE ="radio"  id ="tipo" NAME = "tipo" VALUE = "saida"> 
+                <br>
+
+                Valor <input type="text" name="valor" size="70">
+                <br>
+
+                Historico: <input type="text" name="historico" size="70">
+                <br>
+
+                <h4>Cheque</h4>
+                <select name="cheque" id="cheque"> 
+                    <option value="sim">Sim</option>
+                    <option value="nao">Nao</option>
+                <br>
+
+                <input type="submit" value="enviar">
+                <br>
+        </form>
+    </body>
+</html>
+
+<div>
+    <a href="index.php">Inicio</a>
+</div>
