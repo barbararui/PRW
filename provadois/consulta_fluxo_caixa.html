@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> CONSULTA </title>
+    </head>
+    <body>
+        <form method="POST" action="consulta_fluxo_caixa.php" enctype='multipart/form-data'>
+            <h2>CONSULTE O FLUXO DA CAIXA</h2>
+            <div class="form-item"> 
+                <label for="tipoc">Tipo consulta</label>
+            </div>
+                <h4>TIPO</h4>
+                <br>
+                Saldo total <INPUT type="radio" id ="tipoc" NAME = "tipoc" VALUE = "saldo">
+                Total saidas <INPUT TYPE ="radio"  id ="tipoc" NAME = "tipoc" VALUE = "tsaida">
+                Total entradas <INPUT TYPE ="radio"  id ="tipoc" NAME = "tipoc" VALUE = "tentrada"> 
+                <br>
+
+                <input type="submit" value="enviar">
+                <br>
+            </div>
+        </form>
+    </body>
+</html>
+
+<div>
+    <a href="index.php">Inicio</a>
+</div>

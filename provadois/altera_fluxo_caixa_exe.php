@@ -1,5 +1,6 @@
 <?php
-
+    include('conexao.php');
+    $id = $_POST['id'];
     $data = $_POST['dataa'];
     $tipo = $_POST['tipo'];
     $valor = $_POST['valor'];

@@ -12,7 +12,7 @@ $cheque = $_POST['cheque'];
 echo "<br>";
 echo "Data: " .$data ."<br>";
 echo "Tipo: " .$tipo ."<br>";
-echo "Valor: " .$valor ."<br>";
+echo "Valor: " .$valor ."</br>";
 echo "Historico: " .$historico ."<br>";
 echo "Cheque: " .$cheque ."<br>";
 
