@@ -25,8 +25,8 @@
                 </div>
                 <div class="form-item">
                     <label for="tipo">Tipo:</label>
-                    <input type="radio" id="tipo" name="tipo" value=" <?php echo $row['tipo']?>"> Sim
-                    <input type="radio" id="tipo" name="tipo" value=" <?php echo $row['tipo']?>"> nao
+                    <input type="radio" id="tipo" name="tipo" value="entrada" <?php echo $row['tipo']?>> Entrada
+                    <input type="radio" id="tipo" name="tipo" value="saida" <?php echo $row['tipo']?>> Saida
                 </div>
                 <div class="form-item">
                     <label for="valor">Valor:</label>
@@ -36,13 +36,12 @@
                     <label for="historico">Historico:</label>
                     <input type="text" id="historico" name="historico" value="<?php echo $row['historico']?>" placeholder="Digite o hiistorico">
                 </div>
-                <div class="form-item">
-                    <label for="cheque">Cheque:</label>
-                    <input type="select" id="cheque" name="cheque" value="<?php echo $row['cheque']?>" placeholder="Cheque">
-                </div>
-                
-                
-            
+                <div>
+                    <select name="cheque" id="cheque"> 
+                        <option value="sim">Sim</option>
+                        <option value="nao">Nao</option>
+                    <br>
+                </div>               
                 <div class="form-item">
                     <input id="btn" type="submit" value="Enviar" >
                     <a href='index.php'> Voltar</a>
