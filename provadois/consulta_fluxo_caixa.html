@@ -7,13 +7,12 @@
         <form method="POST" action="consulta_fluxo_caixa.php" enctype='multipart/form-data'>
             <h2>CONSULTE O FLUXO DA CAIXA</h2>
             <div class="form-item"> 
-                <label for="tipoc">Tipo consulta</label>
+                <label for="tipoc"></label>
             </div>
                 <h4>TIPO</h4>
-                <br>
-                Saldo total <INPUT type="radio" id ="tipoc" NAME = "tipoc" VALUE = "saldo">
-                Total saidas <INPUT TYPE ="radio"  id ="tipoc" NAME = "tipoc" VALUE = "tsaida">
-                Total entradas <INPUT TYPE ="radio"  id ="tipoc" NAME = "tipoc" VALUE = "tentrada"> 
+                 <INPUT type="radio" id ="tipoc" name="tipoc" value="saldo"> Saldo total <br>
+                 <INPUT TYPE ="radio"  id ="tipoc" name="tipoc" value="tsaida">Total saidas <br>
+                 <INPUT TYPE ="radio"  id ="tipoc" name="tipoc" value="tentrada"> Total entradas <br>
                 <br>
 
                 <input type="submit" value="enviar">
