@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Imovel </title>
+    </head>
+    <body>
+        <form method="POST" action="cadastro_imovel.php" enctype='multipart/form-data'>
+            <h2>CADASTRE O IMOVEL</h2>
+        
+                
+                Tipo do imovel: <INPUT type="radio" id ="tipo_movel" NAME = "tipo_movel" VALUE = "apart"> Apartamento 
+                <INPUT TYPE ="radio"  id ="tipo_movel" NAME = "tipo_movel" VALUE = "casa"> Casa
+                <INPUT TYPE ="radio"  id ="tipo_movel" NAME = "tipo_movel" VALUE = "condominio"> Condominio
+                <INPUT TYPE ="radio"  id ="tipo_movel" NAME = "tipo_movel" VALUE = "terreno"> Terreno
+                <br>
+                <br>
+
+                Endereco: <input type="text" name="endereco" size="20">
+                <br>
+                Cidade: <input type="text" name="cidade" size="10">
+                <br>
+                Estado: <input type="text" name="estado" size="10">
+                <br>
+
+                Valor <input type="number" name="valor" size="20">
+                <br>
+
+                <input type="submit" value="enviar">
+                <br>
+        </form>
+    </body>
+</html>
+
+<div>
+    <a href="index.php">Inicio</a>
+</div>
