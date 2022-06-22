@@ -39,7 +39,7 @@
                 echo "<td>" .$row['estado']. "</td>";
                 echo "<td>" .$row['valor']. "</td>";   
                 echo "<td>" .$row['dt_cadastro']. "</td>"; 
-                echo "<td><a href='excluir_imovel.php?id=".$row['id_movel']."'>EXCLUIR</a></td>";              
+                echo "<td><a href='excluir_imovel.php?id=".$row['id_movel']."'>EXCLUIR</a></td>";             
                 echo "</tr>";
             }
         ?>

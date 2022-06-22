@@ -2,6 +2,7 @@
     include('conexao.php');
 
     $id_movel= $_GET['id_movel'];
+	echo $id_movel ."Id do usuario para ser excluido";
     $sql = 'DELETE FROM imoveis WHERE id='.$id_movel;
 
     echo "<h1> Exclusão do imovel </h1>";
